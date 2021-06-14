@@ -1,0 +1,39 @@
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px 0;
+  align-content: space-between;
+  justify-content: space-around;
+}
+
+.card {
+  width: 400px;
+  padding: 10px;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &-body {
+    border: 1px solid #000;
+  }
+}
+
+.img {
+  height: 100px;
+  width: 100px;
+  border: 1px solid #000;
+
+  &__none {
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffd152;
+    border: 1px solid #000;
+  }
+}

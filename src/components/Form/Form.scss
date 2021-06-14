@@ -1,0 +1,24 @@
+.form {
+  width: 300px;
+
+  &__error {
+    color: red;
+    font-size: 14px;
+
+    &--name {
+      position: absolute;
+    }
+
+    &--surename {
+      position: absolute;
+    }
+
+    &--description {
+      position: absolute;
+    }
+  }
+}
+
+.form-control {
+  height: 30px;
+}
